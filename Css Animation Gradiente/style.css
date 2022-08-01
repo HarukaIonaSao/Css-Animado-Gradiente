@@ -1,0 +1,28 @@
+body {
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;   
+   background:linear-gradient(45deg, #f0f8ff, #f5deb3, #88dcba, #6fc083, #d4c840, #de47e1, #c01b57);
+   background-size: 900% 900% ;
+   animation: degrade 15s ease infinite ;
+   
+ }
+ 
+ .body{
+   font-size: 1.5em;
+   text-align:center;
+   color:navy;
+ }
+ 
+ @keyframes degrade {
+   0%{
+     background-position: 0% 50%
+   }
+   50%{
+     background-position:100% 50%
+   }
+   100%{
+     background-position:0% 50%   
+   }
+}
